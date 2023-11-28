@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>aljabar Linear</title>
+</head>
+<body>
+    <header>
+        <header>
+        
+        
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="Logo">
+                    </a>
+                </div>
+            </nav>
+            <nav>
+                
+                <ul>
+                    <a class="movey"    href="materi.html">
+                        <button type="button" class="btn btn-danger lg float-start">Kembali</button>
+                       </a> 
+                       <a class="movey"    href="Semester2.html">
+                        <button type="button" class="btn btn-warning lg float-start">Kembali ke Semester 2</button>
+                       </a>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li class="dropdown">
+                        <a href="materi.html">Materi</a>
+                        <ul class="dropdown-content">
+                            <li><a href="Semester1.html">Semester 1</a></li>
+                            <li><a href="Semester2.html">Semester 2</a></li>
+                            <li><a href="Semester3.html">Semester 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Latihan.html">Latihan</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                </ul>
+                
+            </nav>
+        
+    </header>
+        
+    </header>
+    <div class="startup-animation">
+    <main>
+        <section id="aljabar_linear" class="section-box subject-page"></section>
+        <section id="Semester1" class="section-box">
+            <h1 class="text-center">Aljabar Linear </h1>
+            <h2>Materi</h2>
+            <ol type="A">
+                <li>Pengertian Dan Notasi Matriks</li>
+                <ol type="1">
+                    <li>Pengertian</li>
+                        <p>Matriks adalah susunan bilangan berbentuk persegi panjang yang diatur berdasarkan baris dan kolom yang ditulis diantara tanda kurung ( ) atau [ ] atau || ||. Susunan horizontal disebut dengan baris sedangkan susunan vertikal disebut dengan kolom.</p>
+                        <p>Bentuk umum matriks:</p>
+                        <br>
+                        <img src="images/matriks.png" alt="matriks" style="width: 50%; height: 50%;">
+                        <br><p>a^mn adalah elemen atau unsur matriks yang terletak pada baris ke-m dankolom ke-n
+                            Nama matriks ditulis dengan menggunakan huruf besar A,B, P, Q, dsb . Sedangkan Unsur/elemen-elemen suatu matriks dengan huruf kecil sesuai nama matriks dengan indeks sesuai letak elemennya, seperti a11, a12, ...</p>
+                        <br><p>Contoh 1: Diketahui matriks A=</p>
+                        <img src="images/contoh matriks1.png" alt="matriks1" style="width: 50%; height: 50%;">
+                        <br><p>Tentukan:</p>
+                        <ol type="a">
+                            <li>banyak baris</li>
+                            <li>banyak kolom</li>
+                            <li>elemen-elemen baris ke-1</li>
+                            <li>elemen-elemen kolom ke-3</li>
+                            <li>a3.4</li>
+                            <li>a1.3</li>
+                        </ol>
+                        <p>Jawab:</p>
+                        <ol type="a">
+                            <li>banyak baris: 3 buah</li>
+                            <li>banya kolom: 5 buah</li>
+                            <li>elemen-elemen baris ke-1: 1,4,6,-3,8</li>
+                            <li>elemen-elemen kolom ke-3: 6,9,7</li>
+                            <li>a3.4 = elemen baris ke-3 kolom ke-4 = 5</li>
+                            <li>a1.3 = elemen baris ke-1 kolom ke-3 = 6</li>
+                        </ol>
+                        <br><p>Contoh 2: Diketahui</p>
+                        <img src="images/contoh matriks2.png" alt="matriks2" style="width: 50%; height: 50%;">
+                        <br><p>Tentukan letak elemen-2 dan 8!</p>
+                        <br><p>Jawab:</p>
+                            <ul>
+                                <li>elemen-2 = a21</li>
+                                <li>elemen 8 = 8a32</li>
+                            </ul>
+
+                    <li>Ordo Matriks</li>
+                    <p>Yaitu banyaknya baris dan kolom yang menyatakan suatu matriks.
+                        Am*n artinya matriks A berordo m x n yaitu banyaknya baris m buah dan banyaknya kolom n buah.</p>
+                    <p>Contoh: Diketahui P = </p>
+                    <img src="images/contoh matriks3.png" alt="matriks3" style="width: 50%; height: 50%;">
+                    <br><p>Tentukan ordo matriks P dan Q</p>
+                    <p>Jawab: Ordo matriks P = 2 x 4 atau P 2 x4; Ordo matriks Q = 3 x 2 atau Q2 x3</p>
+                    
+                    <li>Jenis-jenis Matriks</li>
+                    <ol type="1">
+                        <li>Matriks Nol</li>
+                        <p>Yaitu matriks yang setiap elemennya nol.</p>
+                        <br><p>Contoh:</p>
+                        <img src="images/matriks nol.png" alt="matriks nol" style="width: 50%; height: 50%;">
+
+                        <li>Matriks Baris</li>
+                        <br><p>Yaitu matriks yang hanya mempunyai satu baris</p>
+                        <br><p>Contoh:</p>
+                        <img src="images/matriks baris.png" alt="matriks baris" style="width: 50%; height: 50%;">
+
+                        <li>Matriks Kolom</li>
+                        <p>Yaitu matriks yang hanya mempunyai satu kolom.</p>
+                        <br><p>Contoh:</p>
+                        <img src="images/matriks kolom.png" alt="matriks kolom" style="width: 50%; height: 50%;">
+
+                        <li>Matriks Bujur Sangkar/Matriks Persegi</li>
+                        <p>Yaitu suatu matriks yang jumlah baris dan kolomnya sama.
+                            Ordo matriks n x n sering disingkat dengan n saja.</p>
+                        <br><p>Contoh</p>
+                        <img src="images/matriks persegi.png" alt="matriks persegi" style="width: 50%; height: 50%;">
+                        
+                        <li>Matriks Diagonal</li>
+                        <p>Yaitu matriks persegi yang semua elemennya nol, kecuali elemen-elemen diagonal utamanya.</p>
+                        <br><p>Contoh:</p>
+                        <img src="images/matriks diagonal.png" alt="matriks diagonal" style="width: 50%; height: 50%;">
+                    
+                        <li>Matriks Satuan/Matriks Identitas</li>
+                        <p>Yaitu matriks persegi yang semua elemen diagonal utamanya satu, dan elemen lainnya nol.</p>
+                        <br><p>Contoh:</p>
+                        <img src="images/matriks satuan.png" alt="matriks satuan" style="width: 50%; height: 50%;">
+
+                        <li>Matriks Skalar</li>
+                        <p>Yaitu matriks persegi yang semua elemen pada diagonal utamanya sama, tetapi bukan nol dan semua elemen lainnya nol.</p>
+                        <br><p>Contoh:</p>
+                        <img src="images/matriks skalar.png" alt="matriks skalar" style="width: 50%; height: 50%;">
+                    
+                        <li>Matriks Segitiga Atas</li>
+                        <p>Yaitu matriks yang semua elemen di bawah diagonal utamanya nol.</p>
+                        <br><p>Contoh:</p>
+                        <img src="images/matriks segitiga atas.png" alt="matriks segitiga atas" style="width: 50%; height: 50%x;">
+
+                        <li>Matriks Segitigas Bawah</li>
+                        <p>Yaitu matriks yang semua elemen di atas diagonal utamanya nol.</p>
+                        <br><p>Contoh:</p>
+                        <img src="images/matriks segitiga bawah.png" alt="matriks segitiga bawah" style="width: 50%; height: 50%;">
+
+                        <li>Matriks Koefisien</li>
+                        <p>Yaitu matriks yang semua elemennya merupakan koefisien-keofisien dari suatu sistem persamaan linear.</p>
+                        <br><p>Contoh 1: Matriks koefisien dari sistem persamaan liniear</p>
+                        <img src="images/koefisien1.png" alt="contoh koefisien" style="width: 50%; height: 50%;">
+
+                        <br><p>Contoh 2:  Matriks koefisien dari sistem persamaan liniear</p>
+                        <img src="images/koefisien 2.png" alt="contoh koefisien" style="width: 50%; height: 50%;">
+                    </ol>
+                </ol>
+                </ol>
+            </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Trixs: Explore the Knowledge</p>
+    </footer>
+    </div>
+</body>
+</html>

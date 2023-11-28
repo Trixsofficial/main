@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Dasar Pemrograman</title>
+</head>
+<body>
+    <header>
+        
+        
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Logo">
+                </a>
+            </div>
+        </nav>
+        <nav>
+            
+            <ul>
+                <a class="movey"    href="materi.html">
+                    <button type="button" class="btn btn-danger lg float-start">Kembali</button>
+                   </a> 
+                   <a class="movey"    href="Semester1.html">
+                    <button type="button" class="btn btn-warning lg float-start">Kembali ke Semester 1</button>
+                   </a>
+                <li><a href="index.html">Beranda</a></li>
+                <li class="dropdown">
+                    <a href="materi.html">Materi</a>
+                    <ul class="dropdown-content">
+                        <li><a href="Semester1.html">Semester 1</a></li>
+                        <li><a href="Semester2.html">Semester 2</a></li>
+                        <li><a href="Semester3.html">Semester 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="Latihan.html">Latihan</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+            </ul>
+            
+        </nav>
+    
+</header>
+    <main>
+           <div class="startup-animation">
+        <section id="dasar_pemrograman" class="section-box subject-page"></section>
+        <section id="Semester1" class="section-box">
+            <h1 class="text-center">Dasar Pemrograman</h1>
+            <h2>Materi</h2>
+            <h3>Struktur Program Pascal</h3>
+            <p>Bagian deklarasi</p>
+                <ul>
+                <li>Deklarasi label         :    LABEL nama label;</li>
+                <li>Deklarasi konstanta     :    CONST...........;</li>
+                <li>Deklarasi tipe          :    TYPE............;</li>
+                <li>Deklarasi variabel      :    VAR.............;</li>
+                <li>Deklarasi Prosedur      :    PROCEDURE.......;</li>
+                <li>Deklarasi fungsi        :    FUNCTION nama fungsi;</li>
+                </ul>
+            <p>Bagian Pernyataan</p>
+            <ul>
+                <li>Begin</li>
+            </ul>
+            <p>(Statement)......;</p>
+            <ul>
+                <li>end.</li>
+            </ul>
+            <p><br>Contohnya adalah: </br></p>
+            <p> uses wincrt;
+                <br>label A;
+                <br>const g=9.8;
+                <br>type dian=integer;
+                <br>var
+                <br>nilai : dian;
+                <br>Begin
+                <br>write(‘Masukkan bilangan bulat ‘);
+                <br>read(nilai);
+                <br>writeln('Ilkom');
+                <br>goto A;
+                <br>writeln('TI');
+                <br>A:
+                <br>writeln ('USU');
+                <br>writeln(nilai);
+                <br>writeln(g);
+                <br>end.
+            </p>
+            <h3>Tipe Data</h3>
+            <p>A. Tipe data integer</p>
+            <img src="images/tipe data integer.png" alt="tipe data integer" style="width: 50%; height: 50%;">
+            <p>B. Tipe data real</p>
+            <img src="images/tipe data real.png" alt="tipe data real" style="width: 50%; height: 50%;">
+            <h3>Operator dalam Pascal</h3>
+            <ul>
+                <li>Operator Aritmatika</li>
+                <img src="images/aritmatika.png" alt="aritmatika" style="width: 50%; height: 50%;">
+                <li>Operator Boolean</li>
+                <img src="images/boolean.png" alt="boolean" style="width: 50%; height: 50%;">
+                <li>Operator Relasional</li>
+                <img src="images/relasional.png" alt="relasional" style="width: 50%; height: 50%;">
+                <li>Operator Standar Matematika</li>
+                <img src="images/standar matematika.png" alt="standar matematika" style="width: 50%; height: 50%;">
+            </ul>
+
+        </section>
+        <section id="Semester1" class="section-box">
+            <h2>Sumber Referensi</h2>
+            <ol>
+                <li><a href="https://openlibrary.org/works/OL5174378W/Basic_programming?edition=key%3A/books/OL5549398M" target="_blank">Kemeny, J. G. (1967). Basic Programming. New York: Wiley.</a></li>
+                <li><a href="https://serupa.id/pemrograman-dasar-konsep-logika-prinsip-langkah/" target="_blank">Thabroni, G. (2022, February 25). Pemrograman Dasar – Konsep, Logika, Prinsip & Langkah. Retrieved from serupa.id.</a></li>
+                <li><a href="https://www.academia.edu/32574981/Buku_Bahasa_Pemrograman_Lengkap_pdf" target="_blank">Suprapto, DKK. (2008). Buku Bahasa Pemrograman Lengkap.pdf. Retrieved from academia.edu.</a></li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Trixs: Explore the Knowledge</p>
+    </footer>
+</div>
+</body>
+</html>

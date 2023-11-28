@@ -1,0 +1,378 @@
+body {
+    overflow-x: hidden;
+    touch-action: pan-y; /* Disable horizontal swiping */
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .left-panel {
+      width: 40%;
+      height: auto; /* Set the width to occupy the full width of the viewport */
+      /* Any other specific styles for mobile header */
+      
+    }
+.right-panel{
+
+    width: auto;
+}
+
+
+        .section-box {
+width: 100%;
+text-overflow: ellipsis;
+
+        }
+
+
+
+     
+
+        /* Any other specific styles for mobile header */
+      }
+  
+  
+  
+article {
+    background-color:#F3B665;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px #363062;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-box article img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.section-box article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    text-align: center;
+}
+
+article h1{
+
+    font-size:x-large;
+}
+
+article:hover {
+    transform: scale(1.01); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.dropdown-content{
+
+    background-color: white!important;
+    opacity: 75%;
+    border-radius: 10px;
+    
+}
+
+body {
+
+    background-color: black!important;
+}
+
+
+.boldy li{
+font-weight: bold;
+
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.content-wrapper img {
+    width: 50%; /* Adjust the image width as needed */
+    height: 50%;
+    margin-right: 20px; /* Add space between the image and text */
+    transition: transform 0.3s ease; /* Add a transition for a smooth effect */
+}
+
+.content-wrapper h1 {
+    color: rgb(8, 0, 0);
+    font-size: 20px;
+}
+
+.content-wrapper img:hover {
+    translate: 1; /* Increase the scale factor on hover */
+    transform: translateX(20px);
+    opacity: 86%;
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform 0.5s ease; /* Duration of the transition */
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 250px; 
+    height: auto; 
+}
+
+img {
+width : 200px;
+    }
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color:#2e869e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+
+header:hover {
+    background-color: #33606d;
+    transform: translateY(-5px); 
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: black; 
+}
+
+/* Untuk mengatur gaya dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+}
+
+.dropdown-content a:hover {
+    color: rgb(0, 0, 0); /* Warna saat dihover */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Gaya tambahan jika perlu */
+.dropdown-content li {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content li:hover {
+    background-color: rgb(243, 142, 9);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.left-panel {
+    flex: 2;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.left-panel h1{
+    text-align: center;
+}
+
+.right-panel {
+    flex: 1;
+    background-color: #F3B665;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.right-panel h1 {
+    text-align: center;
+}
+
+.additional-panel {
+    background-color: #fff;
+    border: 1px solid #220f0f;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.left-top, .left-bottom {
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+h2 {
+    color: #2d2d2d;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+footer:hover {
+    background-color: #555555; 
+    transform: translateY(-5px); 
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.section-box:hover {
+    transform: scale(1.00); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.subject-page {
+    display: none;
+}
+/* Mengatur aside */
+aside {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color:none; /* Ubah latar belakang aside sesuai kebutuhan Anda */
+    padding: 10px;
+    text-align: center;
+    z-index: 2; /* Memberikan indeks z tinggi untuk membuat aside selalu di atas konten lain */
+}
+
+/* Mengatur logo "Trixs" di dalam aside */
+.logo-trixs {
+    width: 150px; /* Sesuaikan ukuran logo "Trixs" sesuai kebutuhan Anda */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa {
+    padding: 18px;
+    font-size: 5px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 0px;
+    border-radius: 50%;
+
+}
+
+
+
+/* Example of Startup Animations */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.startup-animation {
+    animation: fadeIn 1s ease-in-out; /* Apply this class to elements for startup animation */
+}
+

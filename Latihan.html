@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Trixs</title>
+</head>
+<body>
+    
+    <header>
+        
+        
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Logo">
+                </a>
+            </div>
+        </nav>
+        <nav>
+            
+            <ul>
+                <a class="movey"    href="index.html">
+
+                   </a>
+                <li><a href="index.html">Beranda</a></li>
+                <li class="dropdown">
+                    <a href="materi.html">Materi</a>
+                    <ul class="dropdown-content">
+                        <li><a href="Semester1.html">Semester 1</a></li>
+                        <li><a href="Semester2.html">Semester 2</a></li>
+                        <li><a href="Semester3.html">Semester 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="Latihan.html">Latihan</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+            </ul>
+            
+        </nav>
+    
+  </header>
+    <main>
+        <div class="startup-animation">
+        <div class="container" id="accordion">
+          
+                <div class="left-panel">
+                    <div class="additional-panel" id="dasar_pemrograman" data-bs-parent="#accordion">
+                        <h1>Latihan Soal Dasar Pemrograman</h1>
+                        <p>1. Apa hasil dari program berikut ini?<br>
+                          <br>
+                          program Perkalian;<br>
+                          var<br>
+                            a, b, hasil: integer;<br>
+                          begin<br>
+                            a := 5;<br>
+                            b := 4;<br>
+                            hasil := a * b;<br>
+                            writeln('Hasil perkalian a dan b adalah: ', hasil);<br>
+                          end.<br>
+                          <br>
+                          a. 9<br>
+                          b. 20<br>
+                          c. 54<br>
+                          d. 10<br>
+                          e. 25<br>
+                       </p>
+                            <p>
+                          
+                              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Jawaban
+                              </button>
+                            </p>
+                            <div class="collapse" id="collapseExample">
+                              <div class="card card-body">
+                                b. 20
+                              </div>
+                            </div>
+
+                            2. Berapakah nilai dari variabel 'total' setelah eksekusi program ini?<br>
+                            <br>
+                            program Penambahan;<br>
+                            var<br>
+                              i, total: integer;<br>
+                            begin<br>
+                              total := 0;<br>
+                              for i := 1 to 5 do<br>
+                                total := total + i;<br>
+                              writeln('Nilai total adalah: ', total);<br>
+                            end.<br>
+                            <br>
+                            a. 10<br>
+                            b. 15<br>
+                            c. 5<br>
+                            d. 20<br>
+                            e. 25<br>
+                         
+                           </p>
+                                <p>
+                              
+                                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                                    Jawaban
+                                  </button>
+                                </p>
+                                <div class="collapse" id="collapseExample2">
+                                  <div class="card card-body">
+                                    b. 15
+                                  </div>
+                                </div>
+                                3. Apa yang akan ditampilkan oleh program berikut?<br>
+                                <br>
+                                program CekBilangan;<br>
+                                var<br>
+                                  bilangan: integer;<br>
+                                begin<br>
+                                  write('Masukkan sebuah bilangan: ');<br>
+                                  readln(bilangan);<br>
+                                  if (bilangan mod 2 = 0) then<br>
+                                    writeln('Bilangan genap')<br>
+                                  else<br>
+                                    writeln('Bilangan ganjil');<br>
+                                end.<br>
+                                <br>
+                                a. Bilangan ganjil<br>
+                                b. Bilangan genap<br>
+                                c. Program error<br>
+                                d. Input tidak valid<br>
+                                e. Tidak ada output<br>
+                             
+                             
+                               </p>
+                                    <p>
+                                  
+                                      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                                        Jawaban
+                                      </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample3">
+                                      <div class="card card-body">
+                                        a. Bilangan ganjil
+                                      </div>
+                                    </div>
+                    </div>
+                    <div class="left-top" id="Logika_Matematika" data-bs-parent="#accordion">
+                        <h1>Latihan Soal Logika Matematika</h1>
+                        1. Jika P benar dan Q salah, maka P ^ (~Q) adalah?<br>
+                        <br>
+                        a. Benar<br>
+                        b. Salah<br>
+                        c. Tergantung pada nilai P<br>
+                        d. Tergantung pada nilai Q<br>
+                        e. Tidak dapat ditentukan<br>
+                        
+                       </p>
+                            <p>
+                          
+                              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+                                Jawaban
+                              </button>
+                            </p>
+                            <div class="collapse" id="collapseExample4">
+                              <div class="card card-body">
+                                a. Benar
+                              </div>
+                            </div>
+
+                            2. Apa nilai kebenaran dari (~P) v Q jika P dan Q bernilai salah?<br>
+                            <br>
+                            a. Benar<br>
+                            b. Salah<br>
+                            c. Tergantung pada nilai P<br>
+                            d. Tergantung pada nilai Q<br>
+                            e. Tidak dapat ditentukan<br>
+                         
+                           </p>
+                                <p>
+                              
+                                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
+                                    Jawaban
+                                  </button>
+                                </p>
+                                <div class="collapse" id="collapseExample5">
+                                  <div class="card card-body">
+                                    a. Benar
+                                  </div>
+                                </div>
+                                3. Jika P v Q benar, dan Q => ~R, apa yang dapat disimpulkan tentang P?<br>
+                                <br>
+                                a. P benar<br>
+                                b. P salah<br>
+                                c. Tergantung pada nilai Q<br>
+                                d. Tergantung pada nilai R<br>
+                                e. Tidak dapat ditentukan<br>
+                             
+                             
+                             
+                               </p>
+                                    <p>
+                                  
+                                      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">
+                                        Jawaban
+                                      </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample6">
+                                      <div class="card card-body">
+                                        a. P benar
+                                      </div>
+                                    </div>
+                                  </p>
+                    </div>
+                    <div class="left-bottom" id="Pengantar_Ilmu_Komputer" data-bs-parent="#accordion">
+                      <h1>Latihan Soal Pengantar Ilmu Komputer</h1>
+                      1. Apa fungsi dari perangkat input dalam sebuah komputer?<br>
+                      <br>
+                      a. Menyimpan data jangka panjang<br>
+                      b. Menampilkan informasi kepada pengguna<br>
+                      c. Menghasilkan output visual<br>
+                      d. Memberikan instruksi kepada CPU<br>
+                      e. Memasukkan data ke dalam komputer<br>
+                   
+                      
+                     </p>
+                          <p>
+                        
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">
+                              Jawaban
+                            </button>
+                          </p>
+                          <div class="collapse" id="collapseExample7">
+                            <div class="card card-body">
+                              e. Memasukkan data ke dalam komputer
+                            </div>
+                          </div>
+                          2. Apa yang dimaksud dengan "RAM" dalam sebuah komputer?<br>
+                          <br>
+                          a. Perangkat keras untuk menyimpan data jangka panjang<br>
+                          b. Perangkat lunak yang mengontrol aliran data dalam komputer<br>
+                          c. Bagian dari CPU yang melakukan operasi aritmatika<br>
+                          d. Memori sementara yang digunakan untuk menyimpan data yang sedang diproses<br>
+                          e. Sistem operasi yang mengatur sumber daya komputer<br>
+                       
+                       
+                         </p>
+                              <p>
+                            
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8">
+                                  Jawaban
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapseExample8">
+                                <div class="card card-body">
+                                  d. Memori sementara yang digunakan untuk menyimpan data yang sedang diproses
+                                </div>
+                              </div>
+                              3. Apa yang dilakukan oleh sistem operasi dalam sebuah komputer?<br>
+                              <br>
+                              a. Mengelola perangkat keras komputer<br>
+                              b. Menampilkan informasi di layar monitor<br>
+                              c. Menjalankan aplikasi perangkat lunak<br>
+                              d. Menyimpan data jangka panjang<br>
+                              e. Mengevaluasi keamanan jaringan komputer<br>
+                           
+                           
+                           
+                           
+                             </p>
+                                  <p>
+                                
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample9" aria-expanded="false" aria-controls="collapseExample9">
+                                      Jawaban
+                                    </button>
+                                  </p>
+                                  <div class="collapse" id="collapseExample9">
+                                    <div class="card card-body">
+                                      a. Mengelola perangkat keras komputer
+                                    </div>
+                                  </div>
+                                </p>
+                    </div>
+                    <div class="left-bottom" id="Algortima_Dan_Pemrograman" data-bs-parent="#accordion">
+                      <h1>Latihan Soal Algoritma dan Pemrograman</h1>
+                      1. Apa output dari kode program berikut?<br>
+                      <br>
+                      #include <iostream><br>
+                      using namespace std;<br>
+                      <br>
+                      int main() {<br>
+                          int x = 10;<br>
+                          if (x > 5) {<br>
+                              cout << "Nilai x lebih besar dari 5";<br>
+                          } else {<br>
+                              cout << "Nilai x tidak lebih besar dari 5";<br>
+                          }<br>
+                          return 0;<br>
+                      }<br>
+                      <br>
+                      a. Nilai x lebih besar dari 5<br>
+                      b. Nilai x tidak lebih besar dari 5<br>
+                      c. Error kompilasi<br>
+                      d. Tidak ada output yang ditampilkan<br>
+                      e. Nilai x adalah 5<br>
+                   
+                   
+                      
+                     </p>
+                          <p>
+                        
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample10" aria-expanded="false" aria-controls="collapseExample10">
+                              Jawaban
+                            </button>
+                          </p>
+                          <div class="collapse" id="collapseExample10">
+                            <div class="card card-body">
+                              a. Nilai x lebih besar dari 5
+                            </div>
+                          </div>
+                          2. Apa yang akan dicetak oleh program berikut?<br>
+                          <br>
+                          #include <iostream><br>
+                          using namespace std;<br>
+                          <br>
+                          int main() {<br>
+                              for (int i = 0; i < 5; i++) {<br>
+                                  if (i % 2 == 0) {<br>
+                                      cout << i << " ";<br>
+                                  }<br>
+                              }<br>
+                              return 0;<br>
+                          }<br>
+                          <br>
+                          a. 0 1 2 3 4<br>
+                          b. 0 2 4<br>
+                          c. 1 3<br>
+                          d. 0 2<br>
+                          e. 0 1 2 3<br>
+                       
+                       
+                       
+                         </p>
+                              <p>
+                            
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample11" aria-expanded="false" aria-controls="collapseExample11">
+                                  Jawaban
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapseExample11">
+                                <div class="card card-body">
+                                  b. 0 2 4
+                                </div>
+                              </div>
+                              3. Apa output dari program berikut?<br>
+                              <br>
+                              #include <iostream><br>
+                              using namespace std;<br>
+                              <br>
+                              int main() {<br>
+                                  int arr[] = {1, 2, 3, 4, 5};<br>
+                                  cout << arr[2];<br>
+                                  return 0;<br>
+                              }<br>
+                              <br>
+                              a. 2<br>
+                              b. 3<br>
+                              c. 1<br>
+                              d. 4<br>
+                              e. 5<br>
+                           
+                           
+                           
+                           
+                             </p>
+                                  <p>
+                                
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample12" aria-expanded="false" aria-controls="collapseExample12">
+                                      Jawaban
+                                    </button>
+                                  </p>
+                                  <div class="collapse" id="collapseExample12">
+                                    <div class="card card-body">
+                                      b. 3
+                                    </div>
+                                  </div>
+                                </p>
+                    </div>
+                    <div class="left-bottom" id="Aljabar_Linear" data-bs-parent="#accordion">
+                      <h1>Latihan Soal Aljabar Linear</h1>
+                      1. Jika dua vektor memiliki hasil dot product (produk dot) yang sama dengan 0, apa kesimpulan yang dapat diambil tentang vektor tersebut?<br>
+<br>
+                      a. Vektor-vektor tersebut tegak lurus (ortogonal)<br>
+                      b. Vektor-vektor tersebut sejajar<br>
+                      c. Vektor-vektor tersebut memiliki panjang yang sama<br>
+                      d. Vektor-vektor tersebut tidak memiliki hasil dot product<br>
+                      e. Tidak dapat diambil kesimpulan dari informasi yang diberikan<br>
+                   
+                   
+                   
+                      
+                     </p>
+                          <p>
+                        
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample13" aria-expanded="false" aria-controls="collapseExample13">
+                              Jawaban
+                            </button>
+                          </p>
+                          <div class="collapse" id="collapseExample13">
+                            <div class="card card-body">
+                              a. Vektor-vektor tersebut tegak lurus (ortogonal)
+                            </div>
+                          </div>
+                          2. Jika determinan suatu matriks adalah 0, apa yang dapat disimpulkan tentang matriks tersebut?<br>
+                          <br>
+                          a. Matriks tersebut tidak dapat diinverskan<br>
+                          b. Matriks tersebut adalah matriks identitas<br>
+                          c. Matriks tersebut memiliki satu baris atau kolom nol<br>
+                          d. Matriks tersebut memiliki dua baris identik<br>
+                          e. Tidak dapat diambil kesimpulan dari informasi yang diberikan<br>
+                       
+                       
+                       
+                       
+                         </p>
+                              <p>
+                            
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample14" aria-expanded="false" aria-controls="collapseExample14">
+                                  Jawaban
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapseExample14">
+                                <div class="card card-body">
+                                  a. Matriks tersebut tidak dapat diinversikan
+                                </div>
+                              </div>
+                              3. Jika vektor u = [3, -2, 5] dan v = [1, 4, -1], berapakah hasil cross product (produk silang) antara u dan v?<br>
+                              <br>
+                              a. [11, -8, -10]<br>
+                              b. [11, -10, -8]<br>
+                              c. [10, -8, -11]<br>
+                              d. [-11, 8, 10]<br>
+                              e. [-11, 10, 8]<br>
+                        
+                             </p>
+                                  <p>
+                                
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample15" aria-expanded="false" aria-controls="collapseExample15">
+                                      Jawaban
+                                    </button>
+                                  </p>
+                                  <div class="collapse" id="collapseExample15">
+                                    <div class="card card-body">
+                                      a. [11, -8, -10]
+                                    </div>
+                                  </div>
+                                </p>
+                    </div>
+                    <div class="left-bottom" id="Basis_Data" data-bs-parent="#accordion">
+                      <h1>Latihan Soal Basis Data</h1>
+                      1. Apa yang dimaksud dengan "Primary Key" dalam basis data? <br>
+                      <br>
+                      a. Kunci yang digunakan untuk mengamankan akses ke database<br>
+                      b. Kunci yang digunakan untuk mengenkripsi data sensitif<br>
+                      c. Kunci yang digunakan untuk menghubungkan dua tabel<br>
+                      d. Kunci yang digunakan untuk mengidentifikasi secara unik setiap baris dalam tabel<br>
+                      e. Tidak ada yang benar<br>
+                   
+                   
+                   
+                   
+                      
+                     </p>
+                          <p>
+                        
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample16" aria-expanded="false" aria-controls="collapseExample13">
+                              Jawaban
+                            </button>
+                          </p>
+                          <div class="collapse" id="collapseExample16">
+                            <div class="card card-body">
+                              d. Kunci yang digunakan untuk mengidentifikasi secara unik setiap baris dalam tabel
+                            </div>
+                          </div>
+                          2. Apa peran dari "Foreign Key" dalam basis data?<br>
+                          <br>
+                          a. Mengamankan data sensitif dalam tabel<br>
+                          b. Memastikan integritas referensial antara dua tabel terkait<br>
+                          c. Mengenkripsi data yang disimpan dalam database<br>
+                          d. Menyimpan data penting dalam basis data<br>
+                          e. Tidak ada yang benar<br>
+                       
+                       
+                       
+                       
+                       
+                         </p>
+                              <p>
+                            
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample17" aria-expanded="false" aria-controls="collapseExample14">
+                                  Jawaban
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapseExample17">
+                                <div class="card card-body">
+                                  b. Memastikan integritas referensial antara dua tabel terkait
+                                </div>
+                              </div>
+                              3. Apa fungsi dari SQL (Structured Query Language) dalam basis data?<br>
+                              <br>
+                              a. Menentukan tata letak visual dari database<br>
+                              b. Menyediakan antarmuka pengguna untuk mengakses database<br>
+                              c. Memanipulasi dan mengelola data dalam basis data<br>
+                              d. Menyimpan data secara fisik dalam tabel<br>
+                              e. Tidak ada yang benar<br>
+                           
+                        
+                             </p>
+                                  <p>
+                                
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample18" aria-expanded="false" aria-controls="collapseExample15">
+                                      Jawaban
+                                    </button>
+                                  </p>
+                                  <div class="collapse" id="collapseExample18">
+                                    <div class="card card-body">
+                                      c. Memanipulasi dan mengelola data dalam basis data
+                                    </div>
+                                  </div>
+                                </p>
+                    </div>
+                    <div class="left-bottom" id="Pemrograman_Web" data-bs-parent="#accordion">
+                      <h1>Latihan Soal Pemrograman Web</h1>
+                      1. Apa fungsi dari CSS dalam pemrograman web?<br>
+                      <br>
+                      a. Menambahkan interaktivitas ke halaman web<br>
+                      b. Mengatur logika di sisi server<br>
+                      c. Menentukan tata letak dan gaya visual halaman web<br>
+                      d. Memanipulasi data yang ditampilkan di halaman web<br>
+                      e. Tidak ada yang benar<br>
+                   
+                   
+                   
+                   
+                   
+                   
+                      
+                     </p>
+                          <p>
+                        
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample19" aria-expanded="false" aria-controls="collapseExample19">
+                              Jawaban
+                            </button>
+                          </p>
+                          <div class="collapse" id="collapseExample19">
+                            <div class="card card-body">
+                              c. Menentukan tata letak dan gaya visual halaman web
+                            </div>
+                          </div>
+                          2. Apa yang dimaksud dengan "Responsive Web Design"?<br>
+                          <br>
+                          a. Desain halaman web yang dapat beradaptasi dengan berbagai jenis browser<br>
+                          b. Desain halaman web yang dapat menyesuaikan kontennya dengan waktu yang berbeda<br>
+                          c. Desain halaman web yang responsif terhadap interaksi pengguna<br>
+                          d. Desain halaman web yang dapat menyesuaikan tampilan dengan berbagai perangkat dan ukuran layar<br>
+                          e. Tidak ada yang benar<br>
+                       
+                       
+                       
+                       
+                       
+                       
+                         </p>
+                              <p>
+                            
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample20" aria-expanded="false" aria-controls="collapseExample20">
+                                  Jawaban
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapseExample20">
+                                <div class="card card-body">
+                                  d. Desain halaman web yang dapat menyesuaikan tampilan dengan berbagai perangkat dan ukuran layar
+                                </div>
+                              </div>
+                              3. Apa yang dimaksud dengan "Back-End" dalam pemrograman web?<br>
+                              <br>
+                              a. Bagian dari halaman web yang terlihat oleh pengguna<br>
+                              b. Bahasa pemrograman untuk mengatur tampilan halaman web<br>
+                              c. Bagian dari server yang mengelola logika dan data di sisi server<br>
+                              d. Bahasa pemrograman untuk menambahkan efek visual ke halaman web<br>
+                              e. Tidak ada yang benar<br>
+                           
+                           
+                        
+                             </p>
+                                  <p>
+                                
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample21" aria-expanded="false" aria-controls="collapseExample21">
+                                      Jawaban
+                                    </button>
+                                  </p>
+                                  <div class="collapse" id="collapseExample21">
+                                    <div class="card card-body">
+                                      c. Bagian dari server yang mengelola logika dan data di sisi server
+                                    </div>
+                                  </div>
+                                </p>
+                    </div>
+                    <div class="left-bottom" id="Struktur_Data" data-bs-parent="#accordion">
+                      <h1>Latihan Soal Struktur Data</h1>
+                      1. Apa yang dimaksud dengan "Stack" dalam struktur data?<br>
+                      <br>
+                      a. Struktur data yang mengatur data dalam urutan FIFO (First-In, First-Out)<br>
+                      b. Struktur data yang mengatur data dalam urutan LIFO (Last-In, First-Out)<br>
+                      c. Struktur data yang mengatur data dalam bentuk pohon terbalik<br>
+                      d. Struktur data yang mengatur data dalam bentuk jaringan terhubung<br>
+                      e. Tidak ada yang benar<br>
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                      
+                     </p>
+                          <p>
+                        
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample22" aria-expanded="false" aria-controls="collapseExample22">
+                              Jawaban
+                            </button>
+                          </p>
+                          <div class="collapse" id="collapseExample22">
+                            <div class="card card-body">
+                              b. Struktur data yang mengatur data dalam urutan LIFO (Last-In, First-Out)
+                            </div>
+                          </div>
+                          2. Apa keunggulan dari penggunaan "Linked List" dibandingkan dengan "Array" dalam struktur data?<br>
+                          <br>
+                          a. Linked List lebih cepat dalam pencarian elemen data<br>
+                          b. Linked List memiliki alokasi memori yang lebih efisien<br>
+                          c. Linked List lebih mudah untuk diimplementasikan<br>
+                          d. Linked List dapat dengan mudah mengakses elemen data secara acak<br>
+                          e. Tidak ada yang benar<br>
+                       
+                       
+                       
+                       
+                       
+                       
+                         </p>
+                              <p>
+                            
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample23" aria-expanded="false" aria-controls="collapseExample23">
+                                  Jawaban
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapseExample23">
+                                <div class="card card-body">
+                                  b. Linked List memiliki alokasi memori yang lebih efisien
+                                </div>
+                              </div>
+                              3. Apa yang dimaksud dengan "Queue" dalam struktur data?<br>
+                              <br>
+                              a. Struktur data yang mengatur data dalam urutan LIFO (Last-In, First-Out)<br>
+                              b. Struktur data yang mengatur data dalam bentuk pohon terbalik<br>
+                              c. Struktur data yang mengatur data dalam urutan FIFO (First-In, First-Out)<br>
+                              d. Struktur data yang mengatur data dalam bentuk jaringan terhubung<br>
+                              e. Tidak ada yang benar<br>
+                           
+                           
+                           
+                        
+                             </p>
+                                  <p>
+                                
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample24" aria-expanded="false" aria-controls="collapseExample24">
+                                      Jawaban
+                                    </button>
+                                  </p>
+                                  <div class="collapse" id="collapseExample24">
+                                    <div class="card card-body">
+                                      c. Struktur data yang mengatur data dalam urutan FIFO (First-In, First-Out)
+                                    </div>
+                                  </div>
+                                </p>
+                    </div>
+            </div>
+            <div class="right-panel">
+                <section id="Semester1" class="section-box">
+                    <div class="container-fluid">
+                        <div class="right-panel">
+                    <h2>Latihan Semester 1</h2>
+                    <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#dasar_pemrograman" aria-expanded="false" aria-controls="dasar_pemrograman" id="tonny">
+                      Dasar Pemrograman
+                    </button>
+                    <br>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Logika_Matematika" aria-expanded="false" aria-controls="Logika_Matematika" id="tonny1">
+                 
+                      Logika Matematika
+                    </button>
+                    <br>
+                    <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#Pengantar_Ilmu_Komputer" aria-expanded="false" aria-controls="Pengantar_Ilmu_Komputer" id="tonny2">
+                    
+                      Pengantar Ilmu Komputer
+                    </button>
+                            
+    
+
+                </section>
+                <section id="Semester2" class="section-box">
+                    <div class="container-fluid">
+                        <div class="right-panel">
+                            <h2>Latihan Semester 2</h2>
+                            <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#Algortima_Dan_Pemrograman" aria-expanded="false" aria-controls="Algortima_Dan_Pemrograman" id="tonny3">
+                              Algoritma Dan Pemrograman
+                            </button>
+                            <br>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Aljabar_Linear" aria-expanded="false" aria-controls=" Aljabar Linear" id="tonny4">
+                         
+                              Aljabar Linear
+                            </button>
+                        </div>
+                </section>
+                <section id="Semester3" class="section-box">
+                    <div class="container-fluid">
+                        <div class="right-panel">
+                            <h2>Latihan Semester 3</h2>
+                            <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#Basis_Data" aria-expanded="false" aria-controls="Basis_Data" id="tonny5">
+                              Basis Data
+                            </button>
+                            <br>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Pemrograman_Web" aria-expanded="false" aria-controls="Pemrograman_Web" id="tonny6">
+                         
+                              Pemrograman Web
+                            </button>
+                            <br>
+                            <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#Struktur_Data" aria-expanded="false" aria-controls="Struktur_Data" id="tonny7">
+                            
+                              Struktur Data
+                            </button>
+                </section>
+            </div>
+        </div>
+    </main>
+        <footer>
+            <p>&copy; 2023 Trixs: Explore the Knowledge</p>
+        </footer>
+    </div>
+    <script src="script.js" defer></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Simulate a click on the button with ID "myButton"
+      document.getElementById('tonny').click();
+      document.getElementById('tonny1').click();
+      document.getElementById('tonny2').click();
+      document.getElementById('tonny3').click();
+      document.getElementById('tonny4').click();
+      document.getElementById('tonny5').click();
+      document.getElementById('tonny6').click();
+      document.getElementById('tonny7').click();
+    });
+    
+
+  </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
